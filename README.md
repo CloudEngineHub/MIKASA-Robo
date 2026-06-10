@@ -24,7 +24,7 @@
     <td align="center"><img src="assets/GatherAndRecall9-VLA-v0.gif" width="180"/><br><sub>Gather And Recall</sub></td>
     <td align="center"><img src="assets/ShellGameShuffleColorLampTouch-VLA-v0.gif" width="180"/><br><sub>Shell Game Shuffle Color Lamp Touch</sub></td>
     <td align="center"><img src="assets/RememberColor9-VLA-v0.gif" width="180"/><br><sub>Remember Color</sub></td>
-    <td align="center"><img src="assets/BatteriesCheckerHard-6-VLA-v0.gif" width="180"/><br><sub>Batteries Checker-</sub></td>
+    <td align="center"><img src="assets/BatteriesCheckerHard-6-VLA-v0.gif" width="180"/><br><sub>Batteries Checker</sub></td>
   </tr>
   <tr>
     <td align="center"><img src="assets/BlinkCountButtonPressMedium-VLA-v0.gif" width="180"/><br><sub>Find Imposter Color</sub></td>
