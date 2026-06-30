@@ -2,3 +2,4 @@ sphinx>=7.0
 pydata-sphinx-theme>=0.17
 sphinx-autobuild
 sphinx-copybutton>=0.5
+sphinx-sitemap>=2.5

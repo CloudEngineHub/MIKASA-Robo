@@ -18,6 +18,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
     "sphinx_copybutton",
+    "sphinx_sitemap",
 ]
 
 autosummary_generate = True
@@ -40,8 +41,18 @@ intersphinx_mapping = {
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_static_path = ["_static"]
-# Files copied verbatim to the site root (e.g. Google Search Console verification).
+# Files copied verbatim to the site root (e.g. Google Search Console verification,
+# robots.txt).
 html_extra_path = ["_extra"]
+
+# Canonical site URL. Required by sphinx-sitemap to build absolute URLs; also makes
+# Sphinx emit a <link rel="canonical"> on every page, which helps Google indexing.
+html_baseurl = "https://mikasarobo.github.io/"
+
+# sphinx-sitemap: this site is single-version / single-language, so use a flat URL
+# scheme. The default "{version}{lang}{link}" would prepend "1.0.0/" (version is set
+# above) and produce sitemap URLs that do not exist on the site.
+sitemap_url_scheme = "{link}"
 
 html_theme = "pydata_sphinx_theme"
 html_theme_options = {
